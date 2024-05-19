@@ -1,5 +1,5 @@
-# Setting up and installing Active Directory on our Virtual Machine
-We are going to download everything required to run windows 10 and windows server 2019 on Mac
+# Setting up and creating our Windows Server 2019 VM
+We are going to download everything required to run windows 10 and windows server 2019. We will also create our Windows Server 2019 Virtual machine.
 
 
 Step 1) Navigate to https://www.virtualbox.org/ and click on the large download virtual box button.
@@ -31,18 +31,12 @@ When selecting the ISO image you will get confirmation that you chose the correc
 
 You may then click Next when you have confirmed everything is correct
 
+Then we are going to click the checkmark for skip unattended installation
 
-<img width="944" alt="Screenshot 2024-05-19 at 8 30 27 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/9a3633c5-5214-4024-b5a2-6250de0e9922">
+<img width="950" alt="Screenshot 2024-05-19 at 12 38 08 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/6124e164-4432-4cca-a2eb-c2783c12037a">
 
-On the left side of your screen you can fill out your information to your liking. Make sure you document what you used so you're able to access your VM.
+Once your screen looks like this you are ready to click next
 
-On your right you may configure your HostName to your liking. For the domain name you need to make sure it ends in .org so for example I am going to use ITLab.org
-
-Finally, make sure you click the checkmark for guest additions as seen below.
-
-<img width="719" alt="Screenshot 2024-05-19 at 8 41 56 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/3b0c0b18-c74b-4d54-be3b-c02e035b579c">
-
-Now we are ready to select Next.
 
 Step 6) After clicking Next you should see a screen that looks like this
 
@@ -73,12 +67,33 @@ For our purposes this will work so we can go ahead and click Next
 We can click the finish button
 
 Step 8) Congratulations! You just created your Windows Server 2019 VM!
-This step will take awhile as your computer sets up the environment.
 
-<img width="668" alt="Screenshot 2024-05-19 at 10 25 20 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/92983661-9dd1-4b4d-b78d-698e28374373">
-
+But before we can start up our machine there's a few things we must do so our system will run properly
 
 
+We must change some settings so our device boots correctly.
+
+First right click on the VM we just created and select settings...
+
+<img width="379" alt="Screenshot 2024-05-19 at 12 44 37 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/61ec8b50-2957-4796-8372-6001fa810011">
+
+You should then see this. Here we could change our VM's name if we wanted to
+<img width="695" alt="Screenshot 2024-05-19 at 12 47 27 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/e355079d-c1bc-4095-86ec-f45ce3bba891">
+
+We don't want to do that right, instead we are going to click on system
+<img width="682" alt="Screenshot 2024-05-19 at 12 49 22 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/183675a8-9ba1-4008-9ef4-96d5824b33fb">
+
+We are then going to unselect the floppy checkmark in the boot order
+<img width="692" alt="Screenshot 2024-05-19 at 12 50 40 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/510e62b8-a405-4c5e-aec2-de55dbdedd7d">
+
+From there select Network on the same menu that we changed our system settings from
+
+<img width="692" alt="Screenshot 2024-05-19 at 12 52 24 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/3b855669-62d0-4bcb-9073-6d2a5d597517">
+
+We are then going to change our NAT option into a bridged Adapter. This allows our virtual machine to connect to our home network 
+<img width="695" alt="Screenshot 2024-05-19 at 12 53 23 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/24a80487-6ae9-4630-bcb6-a026cf36e06d">
+
+Once you have completed that you can click OK and with that we are ready to start using our Windows Server 2019 VM!
 
 
 
