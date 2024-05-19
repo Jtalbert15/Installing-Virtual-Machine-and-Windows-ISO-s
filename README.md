@@ -60,7 +60,28 @@ Note: You can change these settings once the VM is created by right clicking on 
 
 Once you have chosen your settings you are ready to hit next.
 
-Step 7)
+Step 7) Next you will be prompted with this screen.
+
+<img width="949" alt="Screenshot 2024-05-19 at 10 20 29 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/769d171e-350d-4648-8466-ac3da2e29d40">
+
+For our purposes this will work so we can go ahead and click Next
+
+ We will then get a summary of the VM we are creating
+ 
+<img width="950" alt="Screenshot 2024-05-19 at 10 22 00 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/fc6c7676-f8ea-4c36-812b-3f01682e91b9">
+
+We can click the finish button
+
+Step 8) Congratulations! You just created your Windows Server 2019 VM!
+This step will take awhile as your computer sets up the environment.
+
+<img width="668" alt="Screenshot 2024-05-19 at 10 25 20 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/92983661-9dd1-4b4d-b78d-698e28374373">
+
+
+
+
+
+
 
 
 
