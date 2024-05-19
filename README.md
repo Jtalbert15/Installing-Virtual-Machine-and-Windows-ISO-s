@@ -48,7 +48,7 @@ I recommend you use at least 4096 MB or roughly 4 GB. This means to run 2 VM's y
 
 The Processor also is dependent on your system. If you have a weaker CPU you may just be able to use 1 CPU but for me I will select 3.
 
-Note: You can change these settings once the VM is created by right clicking on ////
+Note: You can change these settings once the VM is created by right clicking on the Vm and clicking settings.
 
 <img width="947" alt="Screenshot 2024-05-19 at 10 17 17 AM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/d4fc3415-428d-44c6-b0d5-65140296fc5c">
 
