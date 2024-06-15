@@ -76,7 +76,7 @@ Note: You can change these settings once the VM is created by right clicking on 
 
 Once you have chosen your settings you are ready to hit next.
 
-<h2>3C) Alotting Storage</h2>
+<h2>3C) Allotting Storage</h2>
 
 Now We will allot memory to Our VM. For our purpose 50 GB is fine
 
@@ -90,23 +90,25 @@ Now We will allot memory to Our VM. For our purpose 50 GB is fine
 
 We can click the finish button
 
-<h2>3E) Allowing VM to use our home network </h2>
+<h1>Step 4) Boot Settings and Internet Connectivity</h1>
+<h2>Summary</h2>
+In order to utilize our newly created VM we need to change 2 settings. First we will change the boot settings so our VM can start up properly. Then we will change the network setting so that we are able to connect to our home internet 
 
-
-We must change some settings so our device boots correctly.
+<h2>4A) Boot Settings</h2>
 
 First right click on the VM we just created and select settings...
 
 <img width="379" alt="Screenshot 2024-05-19 at 12 44 37 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/61ec8b50-2957-4796-8372-6001fa810011">
 
-You should then see this. Here we could change our VM's name if we wanted to
-<img width="695" alt="Screenshot 2024-05-19 at 12 47 27 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/e355079d-c1bc-4095-86ec-f45ce3bba891">
+Click on system
 
-We don't want to do that right, instead we are going to click on system
 <img width="682" alt="Screenshot 2024-05-19 at 12 49 22 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/183675a8-9ba1-4008-9ef4-96d5824b33fb">
 
 We are then going to unselect the floppy checkmark in the boot order
+
 <img width="692" alt="Screenshot 2024-05-19 at 12 50 40 PM" src="https://github.com/Jtalbert15/Installing-Virtual-Machine-and-Windows-ISO-s/assets/66844406/510e62b8-a405-4c5e-aec2-de55dbdedd7d">
+
+<h2>4B)Network connectivity</h2>
 
 From there select Network on the same menu that we changed our system settings from
 
